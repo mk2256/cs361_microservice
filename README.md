@@ -9,7 +9,6 @@ Utilize node to start dndMicroservice.mjs on your localhost. With dndMicroservic
 npm install
 npm start
 ```
-Alternatively, you can do `npm dndMicroservice.mjs` <br>
 
 After, the microservice will statrt on `http://localhost:3000`
 
