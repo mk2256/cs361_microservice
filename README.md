@@ -42,7 +42,7 @@ The Microservice will send back an HTTP response with a number of items. For exa
 ```
 
 ## Storing the Item Data in dndMicroservice
-Item data is stored on a separate file called `dnd_items.mjs`
+Item data is stored on a separate file called `dnd_items.mjs`. This is a separate file that dndMicroservice.mjs calls and holds a list of JSON-type items.
 
 
 ## UML Diagram
