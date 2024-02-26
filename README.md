@@ -46,7 +46,7 @@ Item data is stored on a separate file called `dnd_items.mjs`. This is a separat
 
 
 ## UML Diagram
-The microservice is relatively simple. The client makes an HTTP GET request with the number of items to return. The microservice then randomly selects the number of items and their details. It then returns a list with all items in JSON format.
+The microservice is relatively simple. The client makes an HTTP GET request with the number of items to return `http://localhost:3000/produce_list/[x]`. The microservice then randomly selects the number of items and their details. It then returns a list with all items in JSON format.
 
 ![image](https://github.com/mk2256/cs361_microservice/assets/122490106/36bdb61c-2d2d-4fae-8f47-b424586d8b62)
 
